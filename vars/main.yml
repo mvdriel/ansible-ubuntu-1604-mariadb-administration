@@ -1,0 +1,4 @@
+# vars file for ubuntu-1604-mariadb-administration
+---
+ubuntu_1604_mariadb_administration_dependencies:
+  - python-mysqldb

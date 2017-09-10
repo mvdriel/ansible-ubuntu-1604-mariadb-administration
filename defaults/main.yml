@@ -1,0 +1,5 @@
+# defaults file for ubuntu-1604-mariadb-administration
+---
+ubuntu_1604_mariadb_administration_databases_present: []
+
+ubuntu_1604_mariadb_administration_databases_absent: []

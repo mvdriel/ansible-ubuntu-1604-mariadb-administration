@@ -1,0 +1,12 @@
+# tasks file for ubuntu-1604-mariadb-administration
+---
+- name: databases | create
+  mysql_db:
+    name: "{{ item }}"
+  with_items: "{{ ubuntu_1604_mariadb_administration_databases_present }}"
+
+- name: databases | drop
+  mysql_db:
+    name: "{{ item }}"
+    state: absent
+  with_items: "{{ ubuntu_1604_mariadb_administration_databases_absent }}"
