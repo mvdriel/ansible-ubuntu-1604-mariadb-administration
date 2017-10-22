@@ -3,4 +3,4 @@
 - name: install | dependencies
   apt:
     name: "{{ item }}"
-  with_items: "{{ ubuntu_1604_mariadb_server_dependencies }}"
+  with_items: "{{ ubuntu_1604_mariadb_administration_dependencies }}"

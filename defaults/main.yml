@@ -3,3 +3,7 @@
 ubuntu_1604_mariadb_administration_databases_present: []
 
 ubuntu_1604_mariadb_administration_databases_absent: []
+
+ubuntu_1604_mariadb_administration_users_present: []
+
+ubuntu_1604_mariadb_administration_users_absent: []
