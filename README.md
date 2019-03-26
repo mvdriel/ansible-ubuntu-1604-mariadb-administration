@@ -4,7 +4,10 @@ Administer databases and users on MariaDB server in Ubuntu 16.04.
 
 #### Variables
 
-* `ubuntu_1604_mariadb_administration_databases_present`: [default: `[]`]: Databases to create
+* `ubuntu_1604_mariadb_administration_databases_present`: [default: `{}`]: Databases to create
+* `ubuntu_1604_mariadb_administration_databases_present.{n}.name`: [required]: The name of the database
+* `ubuntu_1604_mariadb_administration_databases_present.{n}.collation`: [optional, default: `utf8mb4_general_ci`]: The collation of the database
+* `ubuntu_1604_mariadb_administration_databases_present.{n}.encoding`: [optional, default: `utf8mb4`]: The character set of the database
 
 * `ubuntu_1604_mariadb_administration_databases_absent`: [default: `[]`]: Databases to drop
 
